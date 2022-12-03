@@ -35,17 +35,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     margin: 10px;
     padding: 10px 20px;
     border: 1px solid black;
+    width: 100%;
 }
+ 
 
 #child-container{
 display: flex;
 flex-direction: row;
-    /* max-width: 50rem; */
-    /* background-color: rgb(213, 232, 253); */
+   
     border: 1px solid black;
   border-radius: 5px;  
-   margin: 4%;
-    padding: 1%;  
+  
 }
 
 #child-item{
