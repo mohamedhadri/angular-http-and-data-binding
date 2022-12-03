@@ -6,6 +6,11 @@ import { AppComponent } from './app.component';
 
 import { PostService } from './post.service';
 import {HttpClientModule} from "@angular/common/http";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatCardModule } from "@angular/material/card";
+import { MatButtonModule } from "@angular/material/button";
+import { MatListModule } from '@angular/material/list'; 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +19,11 @@ import {HttpClientModule} from "@angular/common/http";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatButtonModule,
+    MatListModule
   ],
   providers: [
     PostService 

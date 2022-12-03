@@ -1,9 +1,45 @@
+
 <div class="container">
     <h1 class="header">
         This is App Main
     </h1>
-    <button (click)="btnClicked()"  class="btn">Preview Data</button>
-    <router-outlet></router-outlet>
+    <button  (click)="btnClicked()"  class="btn" >Preview Data</button>
+
+    <mat-card class="example-card">
+      
+         
+         <div class="card-title"> 
+         
+             <mat-card-title>id</mat-card-title>
+            <mat-card-title>title</mat-card-title>
+            <mat-card-title>body</mat-card-title>
+        </div>
+          
+         
+       
+     
+             
+        <mat-card-content>
+            <div  *ngFor="let item of empArr">
+                <mat-list id="child-container">
+                    <mat-list-item id="child-item">{{item.id}}</mat-list-item> 
+                    <mat-list-item id="child-item"> {{item.title}} </mat-list-item> 
+                    <mat-list-item id="child-item">{{item.body}}</mat-list-item> 
+                </mat-list>
+                
+            
+            </div>
+    
+        </mat-card-content>
+        
+    </mat-card>
+    
+    
   
 </div>
-<app-child [listOfTitle]="empArr"></app-child>
+
+
+<div >
+   
+   
+</div>

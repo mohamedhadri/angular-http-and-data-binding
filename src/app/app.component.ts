@@ -28,6 +28,7 @@ export class AppComponent {
   // }
     btnClicked() {
     this.empArr= this.posts
+    console.log(this.empArr)
   }
   
  
