@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+.btn{
+    padding: 10px 20px;
+    border: white;
+    border-radius: 4px;
+     background-color: rgba(82, 131, 236, 0.836);
+     color: rgb(253, 253, 253);
+     margin-bottom: 4%;
+}
+.btn:hover{
+    background-color: rgba(57, 95, 177, 0.836);
+    cursor: pointer;
+}
+.container{
+    margin: 2% ;
+    padding: 1%;
+   background-color: rgb(234, 235, 236);
+}
+.child-container{
+    max-width: 50rem;
+    background-color: rgb(213, 232, 253);
+    border-radius: 5px;
+    margin: 4%;
+    padding: 1%;
+}
+.item{
+   
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

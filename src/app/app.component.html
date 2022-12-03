@@ -1,0 +1,9 @@
+<div class="container">
+    <h1 class="header">
+        This is App Main
+    </h1>
+    <button (click)="btnClicked()"  class="btn">Preview Data</button>
+    <router-outlet></router-outlet>
+  
+</div>
+<app-child [listOfTitle]="empArr"></app-child>
