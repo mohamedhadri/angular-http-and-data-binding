@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+ 
 .btn{
     padding: 10px 20px;
     border: white;
@@ -51,5 +51,6 @@ flex-direction: row;
 #child-item{
     border: solid black 1px;
     border-radius: 5px; 
-    margin: 22px;
+    margin: 5px;
+     
 }

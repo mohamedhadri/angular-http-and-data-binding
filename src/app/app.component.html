@@ -19,16 +19,27 @@
        
      
              
-        <mat-card-content>
+        <mat-card-content  >
+            
+            <mat-grid-list cols="3" rowHeight="200px" >
             <div  *ngFor="let item of empArr">
-                <mat-list id="child-container">
-                    <mat-list-item id="child-item">{{item.id}}</mat-list-item> 
-                    <mat-list-item id="child-item"> {{item.title}} </mat-list-item> 
-                    <mat-list-item id="child-item">{{item.body}}</mat-list-item> 
+                <mat-list   >
+                    <mat-grid-tile id="child-item"> 
+                         <mat-list-item >{{item.id}}</mat-list-item> 
+                        </mat-grid-tile> 
+
+                    <mat-grid-tile id="child-item">    
+                        <mat-list-item > {{item.title}} </mat-list-item> 
+                    </mat-grid-tile> 
+
+                    <mat-grid-tile id="child-item" >     
+                      <mat-list-item  > {{item.body}} </mat-list-item> 
+                    </mat-grid-tile>
                 </mat-list>
                 
             
             </div>
+        </mat-grid-list>
     
         </mat-card-content>
         
